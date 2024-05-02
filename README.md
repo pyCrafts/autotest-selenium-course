@@ -1,1 +1,3 @@
-# auto_tests_with_selenium_cource
+# Solve [course](https://stepik.org/course/575/) on stepik
+
+Автоматизация тестирования с помощью Selenium и Python
