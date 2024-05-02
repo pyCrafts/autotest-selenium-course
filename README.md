@@ -1,1 +1,1 @@
-# auto_test_with_selenium_cource
+# auto_tests_with_selenium_cource
