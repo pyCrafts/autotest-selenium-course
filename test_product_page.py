@@ -1,6 +1,6 @@
-from .pages.product_page import ProductPage
-from .pages.basket_page import BasketPage
-from .pages.login_page import LoginPage
+from pages.product_page import ProductPage
+from pages.basket_page import BasketPage
+from pages.login_page import LoginPage
 import pytest
 import time
 
@@ -27,7 +27,7 @@ def test_guest_can_go_to_login_page_from_product_page(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/the-city-and-the-stars_95/"
     page = ProductPage(browser, link)
     page.open()
-    page.go_to_login_page
+    page.go_to_login_page()
 
 
 class TestUserAddToBasketFromProductPage:
